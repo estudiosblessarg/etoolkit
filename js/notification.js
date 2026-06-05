@@ -8,7 +8,7 @@ class NotificationManager {
         this.toasts = new Map();
     }
 
-    show(message, type = 'info', duration = 3000) {
+    show(message, type = 'info', duration = 100) {
         const id = Date.now();
         const toast = this.createToastElement(id, message, type);
 

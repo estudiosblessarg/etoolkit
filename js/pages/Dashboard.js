@@ -15,7 +15,7 @@ export class DashboardPage {
         container.className = 'page-dashboard';
 
         // Header
-        const header = new HeaderComponent(this.state).render('Electrónica Toolkit PRO');
+        const header = new HeaderComponent(this.state).render('Electrónica Toolkit');
         container.appendChild(header);
 
         // Content
@@ -46,7 +46,7 @@ export class DashboardPage {
             <div class="hero-badge">🚀</div>
             <div class="hero-copy">
                 <h3>Tu ayuda hace esto posible.</h3>
-                <p>Ver un video breve sobre nuestra app nos ayuda a sustentar el proyecto y crear más herramientas útiles para todos.</p>
+                <p>Tu donacion a nuestra app nos ayuda a sustentar el proyecto y crear más herramientas útiles para todos.</p>
             </div>
         `;
         content.appendChild(heroSection);
@@ -58,7 +58,7 @@ export class DashboardPage {
             <div class="promo-card-badge">💡</div>
             <div class="promo-card-content">
                 <h4>¿Nos apoyas?</h4>
-                <p>Si te gusta nuestra app y querés colaborar, podés hacerlo <a class="donation-link" href="#" target="_blank" rel="noopener noreferrer">aquí</a>.</p>
+                <p>Si te gusta nuestra app y querés colaborar, podés hacerlo <a class="donation-link" href="https://link.mercadopago.com.ar/etoolkit" target="_blank" rel="noopener noreferrer">aquí</a>.</p>
             </div>
         `;
         content.appendChild(supportSection);
